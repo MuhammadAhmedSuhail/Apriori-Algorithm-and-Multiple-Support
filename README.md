@@ -16,14 +16,14 @@ The Apriori algorithm is implemented in Python from scratch. The implementation 
 
 The Apriori algorithm is then applied to the given dataset. All frequent itemsets are found using minimum support and confidence. Candidates and qualified items at each level are shown, and strong and weak rules are identified with a confidence threshold of 80%.
 
-## Extended Apriori Algorithm (Q2)
+## Extended Apriori Algorithm
 The Apriori implementation is extended to handle multiple minimum support thresholds. The modifications include:
 
 - Modifying the frequent itemset generation functions to accept multiple minimum support thresholds as input.
 - Modifying the pruning function to prune itemsets that do not meet any of the minimum support thresholds. The function also prints pruned and qualified itemsets for each minimum support threshold.
 - Applying the MIS algorithm to the given dataset. All frequent itemsets are found using minimum support and confidence. Candidates and qualified items at each level are shown, and strong and weak rules are identified with a confidence threshold of 80%. The itemset/combination of itemset removed due to the head itemset problem is also identified.
 
-## GSP Algorithm Implementation (Q3)
+## GSP Algorithm Implementation
 The GSP algorithm is implemented to extract frequent sequential patterns from the list of sequences. The implementation consists of the following:
 
 - Loading the dataset into a pandas dataframe and converting it into a list of sequences. Testing the implementation with the following minimum support counts: 3, 4, and 5.
